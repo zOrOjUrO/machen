@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Máchen</string>
+    <string name="default_notification_channel_id">machenTest</string>
+    <string name="app_banner">App Banner</string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_app_id">4471310429574140</string>
+    <string name="fb_login_protocol_scheme">fb4471310429574140</string>
+
+    <!-- Email and Password -->
+    <string name="email_saved">com.todo.machen.email_saved</string>
+    <string name="password_saved">com.todo.machen.password_saved</string>
+    <string name="username_saved">com.todo.machen.username_saved</string>
+
+    <!-- List View -->
+    <string name="title_for_list_items">Title For List Items</string>
+    <string name="description">Add Task Description</string>
+    <string name="task_status">Task status</string>
+    <string name="list_item_image">List Item Image</string>
+
+    <dimen name="bottom_sheet_corner_radius">16dp</dimen>
+    <dimen name="bottom_sheet_top_padding">8dp</dimen>
+
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/machen/app/src/main/res/drawable/logoint.xml" value="0.23489583333333333" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/machen/app/src/main/res/drawable/splash.xml" value="0.137" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/machen/app/src/main/res/layout/activity_login.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/machen/app/src/main/res/layout/activity_main.xml" value="0.18432971014492755" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/machen/app/src/main/res/layout/activity_signup.xml" value="0.2223731884057971" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/machen/app/src/main/res/layout/bg_bottom_sheet_dialog_fragment.xml" value="0.24909420289855072" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/machen/app/src/main/res/layout/dialog_fragment.xml" value="0.22448979591836735" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/machen/app/src/main/res/layout/list_items.xml" value="0.2128623188405797" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="2dp"
+        app:cardCornerRadius="5dp"
+        android:layout_margin="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <ImageView
+                    android:id="@+id/taskStatusBtn"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:contentDescription="@string/task_status"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    app:srcCompat="@drawable/task_todo" />
+
+                <TextView
+                    android:id="@+id/textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_toEndOf="@+id/taskStatusBtn"
+                    android:fontFamily="@font/opscb"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="30dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/title_for_list_items"
+                    android:textColor="@color/listTextTitleColor"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/more"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="10dp"
+                    android:contentDescription="Toggle Photo"
+                    android:paddingLeft="1dp"
+                    android:paddingRight="1dp"
+                    app:srcCompat="@drawable/down_arrow"
+                    />
+            </RelativeLayout>
+
+
+            <ImageView
+                android:id="@+id/listImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="@string/list_item_image"
+                android:scaleType="centerCrop"
+                android:visibility="gone"
+                android:src="@drawable/default_image" />
+
+            <TextView
+                android:id="@+id/textDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsmedium"
+                android:padding="15dp"
+                android:visibility="gone"
+                android:text="@string/description"
+                android:textColor="@color/listTextDescColor"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/priority"
+                    android:layout_width="36dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="35dp"
+                    android:contentDescription="Importance Toggle"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/priority" />
+
+                <ImageView
+                    android:id="@+id/editBtn"
+                    android:layout_width="24dp"
+                    android:layout_height="0dp"
+                    android:layout_marginEnd="50dp"
+                    android:contentDescription="Edit List Item"
+                    android:paddingStart="3dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="3dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/task_edit" />
+
+                <ImageView
+                    android:id="@+id/deleteItem"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="Delete Task"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="4dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/delete" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</TableRow>
