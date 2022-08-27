@@ -2,8 +2,7 @@
 **A todo app for the modernist**
 
 
-![image](https://user-images.githubusercontent.com/68921071/187037035-73b6b11f-4aa4-44a4-b45d-3d4d036a9214.png)
-
+<img src="https://user-images.githubusercontent.com/68921071/187037563-ec47705a-311f-49c5-beed-4a5389ceacd8.png" width="360">
 
 **Features:**
   - Splash Screen
